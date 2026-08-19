@@ -7,7 +7,6 @@
   },
   "main": "index.js",
   "scripts": {
-    "postinstall": "npx prisma generate",
     "start": "npx tsx index.ts",
     "dev": "nodemon index.ts"
   },
