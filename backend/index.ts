@@ -6,7 +6,7 @@ import { PrismaClient } from './generated/prisma/client';
 import { PrismaPg } from '@prisma/adapter-pg';
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 // Prisma 7 requires the driver adapter to connect to the database
 const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL! });
