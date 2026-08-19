@@ -18,7 +18,7 @@ app.use(express.json());
 
 // API Health Check
 app.get('/', (req, res) => {
-  res.json({ message: "Student OS Backend is live!" })
+  res.json({ message: "Student OS Backend is live!" });
 });
 
 // Database Health Check
