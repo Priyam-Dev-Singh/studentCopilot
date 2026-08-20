@@ -16,7 +16,7 @@ const prisma = new PrismaClient({ adapter });
 app.use(cors());
 app.use(express.json());
 
-// API Health Check//
+// API Health Check///
 app.get('/', (req, res) => {
   res.json({ message: "Student OS Backend is live!" });
 });
