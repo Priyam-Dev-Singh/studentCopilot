@@ -26,7 +26,7 @@ export default function App() {
       <View style={styles.container}>
         <Text style={styles.text}>{serverMessage}</Text>
         <TouchableOpacity style={{borderColor:'black', padding: 10,borderWidth: 1,}} onPress={pingServer}>
-          <Text style={styles.text}>This is a major change</Text>
+          <Text style={styles.text}>The app is working</Text>
         </TouchableOpacity>
       </View>
       
